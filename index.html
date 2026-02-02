@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey, will you be my Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-wrapper" id="questionConf">
+        <div class="image-container">
+          <div class="emoji-display" id="mainEmoji">🥺</div>
+        </div>
+        <h1 class="main-text">Hey, will you be my Valentine?</h1>
+        <div class="buttons-container">
+          <button id="yesBtn" class="btn btn-yes">Yes</button>
+          <button id="noBtn" class="btn btn-no">No</button>
+        </div>
+        <p class="shy-hint">"No" seems a bit shy 😈</p>
+      </div>
+
+      <div class="success-wrapper hidden" id="successConf">
+        <div class="image-container">
+          <div class="emoji-display bounce">🥰</div>
+        </div>
+        <h1 class="success-text">Yay!</h1>
+        <p class="sub-text">Check your DMs! 💌</p>
+      </div>
+      <a
+        href="https://www.instagram.com/aryanpardeshi11/"
+        target="_blank"
+        class="signature-text"
+        rel="noopener"
+        >Made with ❤️ by AP</a
+      >
+    </div>
+
+    <!-- Canvas for confetti -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
