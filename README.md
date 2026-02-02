@@ -39,4 +39,4 @@ To run this project locally:
 
 ## 📝 Credits
 
-Made with ❤️ by [Aryan Pardeshi](https://www.instagram.com/aryanpardeshi11/)
+Made with ❤️ by [Aryan Pardeshi](https://www.instagram.com/aryanpardeshi11/) using Google's Antigravity IDE
